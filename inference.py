@@ -9,7 +9,7 @@ import wave
 labels = ['backward', 'bed', 'bird', 'cat', 'dog', 'down', 'eight', 'five', 'follow', 'forward', 'four', 'go', 'happy', 'house', 'learn', 'left', 'marvin', 'nine', 'no', 'off', 'on', 'one', 'right', 'seven', 'sheila', 'six', 'stop', 'three', 'tree', 'two', 'up', 'visual', 'wow', 'yes', 'zero']
 MIN_LENGTH = 16000
 
-sd.default.device(0,0)
+sd.default.device = (0,0)
 new_sample_rate = 16000
 duration = 3
 channels = 1
