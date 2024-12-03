@@ -13,7 +13,9 @@ sd.default.device = (0,0)
 new_sample_rate = 96000
 duration = 3
 channels = 1
-
+if os.path.exists("recorded_audio.wav"):
+        print("deleted")
+        os.remove("recorded_audio.wav")
 
 def record_audio():
     print("Recording...")
