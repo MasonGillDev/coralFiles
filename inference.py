@@ -144,7 +144,7 @@ record_audio()
 
 
 
-filepath = "/Users/masongill/Desktop/Senior Design/recorded_audio.wav"
+filepath = "/home/mendel/coral/SpeechCommand/recorded_audio.wav"
 
 
 
