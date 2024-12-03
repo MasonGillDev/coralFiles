@@ -10,7 +10,7 @@ labels = ['backward', 'bed', 'bird', 'cat', 'dog', 'down', 'eight', 'five', 'fol
 MIN_LENGTH = 16000
 
 sd.default.device = (0,0)
-new_sample_rate = 16000
+new_sample_rate = 96000
 duration = 3
 channels = 1
 
